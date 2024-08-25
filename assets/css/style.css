@@ -1356,7 +1356,11 @@ textarea.form-input::-webkit-resizer { display: none; }
     align-items: center; /* Vertically center the items */
     gap: 8px; /* Space between the icon and text */
   }
-
+  
+  .location-text {
+    color: white; /* Match the icon color or use a different color */
+    font-size: 16px; /* Adjust text size as needed */
+  }
   .info_more-btn span {
     display: block;
     font-size: var(--fs-8);
