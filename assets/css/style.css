@@ -1351,6 +1351,12 @@ textarea.form-input::-webkit-resizer { display: none; }
     padding: 10px 15px;
   }
 
+  .location-container {
+    display: flex; /* Align items horizontally */
+    align-items: center; /* Vertically center the items */
+    gap: 8px; /* Space between the icon and text */
+  }
+
   .info_more-btn span {
     display: block;
     font-size: var(--fs-8);
