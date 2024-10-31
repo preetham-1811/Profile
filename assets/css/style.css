@@ -500,7 +500,7 @@ main {
 }
 
 .download-icon {
-  font-size: 15rem; /* Icon size */
+  font-size: 7rem; /* Icon size */
   color: white; /* Icon color */
   transition: color 0.3s; /* Smooth color change */
 }
