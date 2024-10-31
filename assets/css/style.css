@@ -498,17 +498,16 @@ main {
   padding: 10px; /* Padding around the link */
   text-decoration: none; /* Remove underline */
   color: white; /* Ensure text color is white */
-  transition: color 0.3s; /* Smooth color change */
 }
 
 .download-icon {
   font-size: 2rem; /* Icon size */
-  color: white; /* Icon color */
+  color: white !important; /* Force icon color to white */
   transition: color 0.3s; /* Smooth color change */
 }
 
 .download-link:hover .download-icon {
-  color: #ccc; /* Change icon color on hover */
+  color: #ccc !important; /* Change icon color on hover */
 }
 
 
