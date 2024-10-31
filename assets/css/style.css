@@ -496,7 +496,7 @@ main {
   align-items: center;
   justify-content: center;
   padding: 10px;
-  color: white; /* Change to your desired color */
+  color: var(--light-gray); /* Change to your desired color */
   text-decoration: none; /* Remove underline */
 }
 
@@ -506,7 +506,7 @@ main {
 }
 
 .download-link:hover .download-icon {
-  color: #ccc; /* Change color on hover */
+  color: var(--light-gray); /* Change color on hover */
 }
 
 
