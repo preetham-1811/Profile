@@ -1155,7 +1155,6 @@ main {
 .image-container {
   height: 100%;
   width: 100%;
-  background-image: url('./assets/images/IMG_2160 (1).jpg'); /* Path to your image */
   background-size: cover; /* Cover the entire container */
   background-position: center; /* Center the image */
 }
