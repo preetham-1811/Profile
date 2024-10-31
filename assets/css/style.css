@@ -490,28 +490,7 @@ main {
 /*-----------------------------------*\
   #download
 \*-----------------------------------*/
-.download-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-  text-decoration: none; /* Remove underline */
-  color: white; /* Ensure the link text color is white */
-}
 
-.download-link:hover {
-  color: #ccc; /* Change link color on hover */
-}
-
-.download-icon {
-  font-size: 2rem; /* Icon size */
-  color: white; /* Icon color */
-  transition: color 0.3s; /* Smooth color change */
-}
-
-.download-link:hover .download-icon {
-  color: #ccc; /* Change icon color on hover */
-}
 
 /*-----------------------------------*\
   #ABOUT
