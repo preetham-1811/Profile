@@ -1156,7 +1156,8 @@ main {
   height: 100%;
   width: 100%;
   background-size: contain; /* Cover the entire container */
-  background-position: center; /* Center the image */
+  background-position: center;
+  background-repeat: no-repeat; /* Center the image */
 }
 
 .mapbox figure { height: 100%;  margin: 0; overflow: hidden;}
