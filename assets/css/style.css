@@ -490,13 +490,17 @@ main {
 /*-----------------------------------*\
   #download
 \*-----------------------------------*/
-
 .download-link {
-  display: flex; /* Flex layout for alignment */
-  align-items: center; /* Center icon vertically */
-  justify-content: center; /* Center icon horizontally */
-  padding: 10px; /* Padding around the link */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
   text-decoration: none; /* Remove underline */
+  color: white; /* Ensure the link text color is white */
+}
+
+.download-link:hover {
+  color: #ccc; /* Change link color on hover */
 }
 
 .download-icon {
