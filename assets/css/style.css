@@ -487,8 +487,27 @@ main {
 
 .navbar-link.active { color: var(--orange-yellow-crayola); }
 
+/*-----------------------------------*\
+  #download
+\*-----------------------------------*/
 
+.download-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  color: white; /* Change to your desired color */
+  text-decoration: none; /* Remove underline */
+}
 
+.download-icon {
+  font-size: 2rem; /* Adjust size as needed */
+  transition: color 0.3s;
+}
+
+.download-link:hover .download-icon {
+  color: #ccc; /* Change color on hover */
+}
 
 
 /*-----------------------------------*\
