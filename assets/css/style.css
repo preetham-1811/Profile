@@ -1155,7 +1155,7 @@ main {
 .image-container {
   height: 100%;
   width: 100%;
-  background-size: cover; /* Cover the entire container */
+  background-size: contain; /* Cover the entire container */
   background-position: center; /* Center the image */
 }
 
